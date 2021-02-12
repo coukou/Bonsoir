@@ -58,9 +58,9 @@ data class SuccessObject(private val id: String, private val service: NsdService
             return result
         }
 
-        for(entry in service.attributes.entries) {
+        /*for(entry in service.attributes.entries) {
             result[entry.key] = String(entry.value)
-        }
+        }*/
         return result
     }
 }
